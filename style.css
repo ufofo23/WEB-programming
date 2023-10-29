@@ -1,13 +1,23 @@
 body {
     margin:0px;
 }
-h1 {
+#title {
+    display : grid;
+    grid-template-columns: 86px 1fr;
+    border-bottom: 1px solid gray;
     text-align: center;
+}
+#title #button {
+    text-align:left;
+}
+h1 {
+    display:box;
+    text-align:center;
+    margin : 0px;
     text-decoration: none;
     font-size:48px;
-    border-bottom: 1px solid gray;
-    margin : 0px;
     padding : 5px;
+    padding-right : 100px;
     padding-bottom:15px;
 
 }
@@ -35,9 +45,8 @@ h1 {
 }
 
 a {
-    color:black;
+    color:blue;
     text-decoration: none;
-
 }
 
 @media(max-width :700px) {

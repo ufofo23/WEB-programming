@@ -4,9 +4,16 @@
     <title>WEB1-welcome</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="colors.js"></script>
 </head>
 <body>
-    <h1><a href="index.html" text-decoration:underline;">WEB</a></h1>
+    <div id="title">
+        <div id="button">
+            <input type="button" value="night" onclick="nightDayHandler(this)">
+        </div>
+        <h1><a href="index.html" style="text-decoration:underline;">WEB</a></h1>
+    </div>
     <div id="grid">
         <div id="index">
             <ol>
@@ -27,9 +34,6 @@
             </p>   
         </div>
     </div>
-    
-    
-         
 </body>
 </html>
 
